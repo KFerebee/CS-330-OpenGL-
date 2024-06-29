@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{acc9b6a3-7ec6-46a6-8540-18e4843927b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{450d8584-0495-4e84-954c-3f7565e7f008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Shapes">
+      <UniqueIdentifier>{da8de016-acdf-42d6-a8a7-d6eafbc8bc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{2bd92ddb-2463-4375-9ba8-a99db50a459d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Textures">
+      <UniqueIdentifier>{49ce2c8b-64cc-4c92-aad4-cab4e8d99add}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\3DShapes\ShapeMeshes.cpp">
+      <Filter>Source Files\3D Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utilities\ShaderManager.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ViewManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ViewManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\7167-front.jpg">
+      <Filter>Source Files\Utilities\Textures</Filter>
+    </Image>
+    <Image Include="Textures\B650I Lightning WiFi(L3).jpg">
+      <Filter>Source Files\Utilities\Textures</Filter>
+    </Image>
+    <Image Include="Textures\BlackMetal.jpg">
+      <Filter>Source Files\Utilities\Textures</Filter>
+    </Image>
+    <Image Include="Textures\blkgrainy.jpg">
+      <Filter>Source Files\Utilities\Textures</Filter>
+    </Image>
+    <Image Include="Textures\IDCooling55.jpg">
+      <Filter>Source Files\Utilities\Textures</Filter>
+    </Image>
+    <Image Include="Textures\SF750.jpg">
+      <Filter>Source Files\Utilities\Textures</Filter>
+    </Image>
+    <Image Include="Textures\Wirebundle.jpg">
+      <Filter>Source Files\Utilities\Textures</Filter>
+    </Image>
+    <Image Include="Textures\pad.jpg">
+      <Filter>Source Files\Utilities\Textures</Filter>
+    </Image>
+    <Image Include="Textures\Wood.jpg">
+      <Filter>Source Files\Utilities\Textures</Filter>
+    </Image>
+    <Image Include="Textures\wall.jpg">
+      <Filter>Source Files\Utilities\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
